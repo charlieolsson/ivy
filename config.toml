@@ -1,0 +1,9 @@
+baseURL = "https://ivy.netlify.com"
+languageCode = "en-us"
+title = "Charlie's Test Hugo Site"
+theme = "ananke"
+
+[context.production.environment]
+HUGO_VERSION = "0.40.2"
+HUGO_ENV = "production"
+HUGO_ENABLEGITINFO = "true"
